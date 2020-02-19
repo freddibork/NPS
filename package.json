@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Grafana Plugin for calculating the NPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddibork/NPS.git"
+  },
+  "keywords": [
+    "NPS",
+    "Net",
+    "Promoter",
+    "Score",
+    "calculate",
+    "panel"
+  ],
+  "author": "Frederik Bork",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/freddibork/NPS/issues"
+  },
+  "homepage": "https://github.com/freddibork/NPS#readme"
+}
