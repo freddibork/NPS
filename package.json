@@ -1,5 +1,5 @@
 {
-  "name": "package.json",
+  "name": "NPS for Grafana",
   "version": "1.0.0",
   "description": "Grafana Plugin for calculating the NPS",
   "main": "index.js",
@@ -17,11 +17,25 @@
     "Score",
     "calculate",
     "panel"
+	"plugin"
   ],
   "author": "Frederik Bork",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/freddibork/NPS/issues"
-  },
-  "homepage": "https://github.com/freddibork/NPS#readme"
+	},
+	"devDependencies": {
+	  "grunt": "~0.4.5",
+	  "babel": "~6.5.1",
+	  "grunt-babel": "~6.0.0",
+	  "grunt-contrib-copy": "~0.8.2",
+	  "grunt-contrib-watch": "^0.6.1",
+	  "grunt-contrib-uglify": "~0.11.0",
+	  "grunt-systemjs-builder": "^0.2.5",
+	  "load-grunt-tasks": "~3.2.0",
+	  "grunt-execute": "~0.2.2",
+	  "grunt-contrib-clean": "~0.6.0",
+	  "babel-plugin-transform-es2015-modules-systemjs": "^6.5.0",
+	  "babel-preset-es2015": "^6.5.0"
+	}
 }
