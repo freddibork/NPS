@@ -1,5 +1,5 @@
 {
-  "name": "NPS for Grafana",
+  "name": "nps-for-grafana",
   "version": "1.0.0",
   "description": "Grafana Plugin for calculating the NPS",
   "main": "index.js",
